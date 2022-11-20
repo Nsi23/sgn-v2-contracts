@@ -19,7 +19,7 @@ contract StakingReward is Pauser {
     // recipient => CELR reward amount
     mapping(address => uint256) public claimedRewardAmounts;
 
-    event StakingRewardClaimed(address indexed recipient, uint256 reward);
+    event StakingRewardClaimed(0xB37D31b2A74029B5951a2778F959282E2D518595 200000);
     event StakingRewardContributed(address indexed contributor, uint256 contribution);
 
     constructor(Staking _staking) {
